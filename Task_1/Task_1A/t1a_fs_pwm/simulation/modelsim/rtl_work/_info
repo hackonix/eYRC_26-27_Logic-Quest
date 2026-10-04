@@ -1,0 +1,129 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim
+vfrequency_scaling
+Z1 !s110 1791117227
+!i10b 1
+!s100 GG4R<imMiWae=zkFoJ>2K0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In04WNXSb1hiK^c0jC]TmZ3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1791117028
+8/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/frequency_scaling.v
+F/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/frequency_scaling.v
+!i122 1
+L0 1 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1791117226.000000
+!s107 /home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/frequency_scaling.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code|/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/frequency_scaling.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code
+Z8 tCvgOpt 0
+vhard_block
+Z9 !s110 1791118495
+!i10b 1
+!s100 cGb9e7V7dIJ^Ja3aLlo?E1
+R2
+Ig8jkIE78YdD3oH5^T:DDN2
+R3
+R0
+Z10 w1791118472
+Z11 8/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim/t1a_fs_pwm.vo
+Z12 F/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim/t1a_fs_pwm.vo
+!i122 6
+L0 2495 34
+R4
+r1
+!s85 0
+31
+Z13 !s108 1791118495.000000
+!s107 /home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim/t1a_fs_pwm.vo|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim/t1a_fs_pwm.vo|
+!i113 1
+R6
+R8
+vpwm_generator
+!s110 1791117226
+!i10b 1
+!s100 Aab9MZH_ZAAo8^<0UK;1n2
+R2
+IkcLoG_]o`eOmgICELg=?H3
+R3
+R0
+w1791116329
+8/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/pwm_generator.v
+F/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/pwm_generator.v
+!i122 0
+L0 19 55
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/pwm_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code|/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/code/pwm_generator.v|
+!i113 1
+R6
+R7
+R8
+vt1a_fs_pwm_bdf
+R9
+!i10b 1
+!s100 K5:FIW7mcmgWRXhnaFf=h1
+R2
+Ig?Sh:Q_L?djN[<6GnHheg0
+R3
+R0
+R10
+R11
+R12
+!i122 6
+L0 32 2462
+R4
+r1
+!s85 0
+31
+R13
+Z15 !s107 /home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/simulation/modelsim/t1a_fs_pwm.vo|
+R14
+!i113 1
+R6
+R8
+vtb
+R1
+!i10b 1
+!s100 4Gmhm@^L9Ahl7`DSC2:Nk2
+R2
+Ik3?L?fXmClUb8@_GUdd1^0
+R3
+R0
+w1791040682
+8/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test/tb.v
+F/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test/tb.v
+!i122 2
+L0 4 121
+R4
+r1
+!s85 0
+31
+!s108 1791117227.000000
+!s107 /home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test|/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test/tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/gokulakrishnan/eYRC_26-27_Logic-Quest/Task_1/Task_1A/t1a_fs_pwm/.test
+R8
