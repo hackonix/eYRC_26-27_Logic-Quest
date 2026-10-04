@@ -1,0 +1,96 @@
+|t1a_fs_pwm_bdf
+pwm_signal <= pwm_generator:inst.pwm_signal
+clk_50MHz => frequency_scaling:inst4.clk_50MHz
+reset_n => frequency_scaling:inst4.reset_n
+reset_n => pwm_generator:inst.reset_n
+pulse_width[0] => pwm_generator:inst.pulse_width[0]
+pulse_width[1] => pwm_generator:inst.pulse_width[1]
+pulse_width[2] => pwm_generator:inst.pulse_width[2]
+pulse_width[3] => pwm_generator:inst.pulse_width[3]
+pulse_width[4] => pwm_generator:inst.pulse_width[4]
+clk_500Hz <= pwm_generator:inst.clk_500Hz
+clk_5MHz <= frequency_scaling:inst4.clk_5MHz
+
+
+|t1a_fs_pwm_bdf|pwm_generator:inst
+clk_5MHz => pwm_signal~reg0.CLK
+clk_5MHz => clk_500Hz~reg0.CLK
+clk_5MHz => pwm_count[0].CLK
+clk_5MHz => pwm_count[1].CLK
+clk_5MHz => pwm_count[2].CLK
+clk_5MHz => pwm_count[3].CLK
+clk_5MHz => pwm_count[4].CLK
+clk_5MHz => pwm_count[5].CLK
+clk_5MHz => pwm_count[6].CLK
+clk_5MHz => pwm_count[7].CLK
+clk_5MHz => pwm_count[8].CLK
+clk_5MHz => pwm_count[9].CLK
+clk_5MHz => pwm_count[10].CLK
+clk_5MHz => pwm_count[11].CLK
+clk_5MHz => pwm_count[12].CLK
+clk_5MHz => pwm_count[13].CLK
+clk_5MHz => clk_count[0].CLK
+clk_5MHz => clk_count[1].CLK
+clk_5MHz => clk_count[2].CLK
+clk_5MHz => clk_count[3].CLK
+clk_5MHz => clk_count[4].CLK
+clk_5MHz => clk_count[5].CLK
+clk_5MHz => clk_count[6].CLK
+clk_5MHz => clk_count[7].CLK
+clk_5MHz => clk_count[8].CLK
+clk_5MHz => clk_count[9].CLK
+clk_5MHz => clk_count[10].CLK
+clk_5MHz => clk_count[11].CLK
+clk_5MHz => clk_count[12].CLK
+clk_5MHz => clk_count[13].CLK
+reset_n => pwm_signal~reg0.ACLR
+reset_n => clk_500Hz~reg0.ACLR
+reset_n => pwm_count[0].ACLR
+reset_n => pwm_count[1].ACLR
+reset_n => pwm_count[2].ACLR
+reset_n => pwm_count[3].ACLR
+reset_n => pwm_count[4].ACLR
+reset_n => pwm_count[5].ACLR
+reset_n => pwm_count[6].ACLR
+reset_n => pwm_count[7].ACLR
+reset_n => pwm_count[8].ACLR
+reset_n => pwm_count[9].ACLR
+reset_n => pwm_count[10].ACLR
+reset_n => pwm_count[11].ACLR
+reset_n => pwm_count[12].ACLR
+reset_n => pwm_count[13].ACLR
+reset_n => clk_count[0].PRESET
+reset_n => clk_count[1].PRESET
+reset_n => clk_count[2].PRESET
+reset_n => clk_count[3].ACLR
+reset_n => clk_count[4].ACLR
+reset_n => clk_count[5].ACLR
+reset_n => clk_count[6].ACLR
+reset_n => clk_count[7].PRESET
+reset_n => clk_count[8].PRESET
+reset_n => clk_count[9].PRESET
+reset_n => clk_count[10].ACLR
+reset_n => clk_count[11].ACLR
+reset_n => clk_count[12].PRESET
+reset_n => clk_count[13].ACLR
+pulse_width[0] => Mult0.IN13
+pulse_width[1] => Mult0.IN12
+pulse_width[2] => Mult0.IN11
+pulse_width[3] => Mult0.IN10
+pulse_width[4] => Mult0.IN9
+clk_500Hz <= clk_500Hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pwm_signal <= pwm_signal~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|t1a_fs_pwm_bdf|frequency_scaling:inst4
+clk_50MHz => clk_5MHz~reg0.CLK
+clk_50MHz => count[0].CLK
+clk_50MHz => count[1].CLK
+clk_50MHz => count[2].CLK
+reset_n => clk_5MHz~reg0.ACLR
+reset_n => count[0].ACLR
+reset_n => count[1].ACLR
+reset_n => count[2].PRESET
+clk_5MHz <= clk_5MHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
